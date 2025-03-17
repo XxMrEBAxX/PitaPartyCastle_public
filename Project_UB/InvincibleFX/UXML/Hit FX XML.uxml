@@ -1,0 +1,8 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="True">
+    <Style src="project://database/Assets/Plugins/Hit%20FX%20Test/Editor/USS/Hit%20FX%20USS.uss?fileID=7433441132597879392&amp;guid=07cb7bcf2462144098e7263c8f833764&amp;type=3#Hit FX USS" />
+    <ui:Label tabindex="-1" text="Invincible FX" parse-escape-sequences="true" display-tooltip-when-elided="true" name="title-text" class="TitleStyle" />
+    <uie:PropertyField binding-path="TargetRenderer" name="TargetRenderer-Field" />
+    <uie:PropertyField binding-path="Duration" name="Duration-Field" />
+    <uie:PropertyField binding-path="EaseStyle" name="EaseStyle-Field" />
+    <ui:Button text="Play" parse-escape-sequences="true" display-tooltip-when-elided="true" name="hit-button" class="ButtonStyle" />
+</ui:UXML>
